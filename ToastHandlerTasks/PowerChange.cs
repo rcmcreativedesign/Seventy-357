@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.ApplicationModel.Background;
 
-namespace Layaway
+namespace ToastHandlerTasks
 {
-    public sealed class ToastHandlerTasks : IBackgroundTask
+    public sealed class PowerChange : IBackgroundTask
     {
         public void Run(IBackgroundTaskInstance taskInstance)
         {
-            var details = taskInstance.TriggerDetails;
+            
         }
     }
 }
